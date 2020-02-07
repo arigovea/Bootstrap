@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(37, 110, 86, 0.384);
+    margin: 3em;
+    min-width: 600px;
+}
+h1{
+    margin-left: 630px;
+    color: darkblue;
+    min-width: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 450px;
+}
+label {
+    display: inline-block;
+   min-width: 10em;
+    margin-right: 1em;
+    text-align: right;
+
+}
+  input {
+  border-radius: 6px;
+  float: right;
+  background-clip: content-box;
+  margin-left: 2em;
+  width: 215px;
+}
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 1%;
+    width: 100%;
+    text-align: right;
+}
+#radio{
+    display: flex;
+    min-width: 15em;
+    flex-direction: row;
+    width: 215px;
+}
+a{
+    background-color: blue;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 12px;
+}

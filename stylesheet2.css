@@ -1,0 +1,40 @@
+#button, #button2{
+    background-color: rgba(178, 139, 216, 0.815);
+    border-color: rebeccapurple;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 3em;
+    padding-left: 14em;
+}
+#accordionExample{
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: 15em;
+    padding-left: 15em;
+}
+.btn.btn-link.collapsed{
+    color: rgb(25, 97, 55);
+}
+.card{
+    border-color: teal;
+    border-style: dashed;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgba(78, 151, 125, 0.342);
+      max-width: 400px;
+    }
+    h1{
+        padding-left: 5.3em;
+    }
+    #accordionExample{
+        min-width: 200px;
+        max-width: 400px;
+        padding-left: 0em;
+    }
+  }

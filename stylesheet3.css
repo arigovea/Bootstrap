@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    font-size: 4em;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+}
+.form-control{
+    width: 35rem;
+}
+.form-horizontal{
+    max-width: 100rem;
+    justify-content: center;
+    margin-left: 25rem;
+}
+.hgt{
+    display: inline-flex;
+}
+.form-check.form-check-inline{
+width: 15rem;
+padding-left: 1em;
+padding-top: .5em;
+}
+button{
+    background-color: rgb(42, 92, 85);
+    color: white;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.452);
+}
